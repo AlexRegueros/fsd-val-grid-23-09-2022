@@ -1,95 +1,94 @@
-body{
-    background-color: blue;
+*{
     margin: 0%;
-    
+    padding: 0%;
 }
 
 .container{
-    height: 100vh;
-    background-color: chartreuse;
-    display: grid;
-    grid-template-rows: 1fr 4fr 4fr;
-}
-
-#container-b1{
-    background-color:rgb(0, 0, 0);
+    background-color: aqua;
+    width:100vw;
+    height:100vh;
     display: flex;
-    align-items: center;
+    flex-direction:column;
     
-
 }
 
-.titulo{
-    color: aliceblue;
-    padding-left: 16px
-}   
+.menu{
+    background-color: rgb(9, 8, 9);
+    width: 100vw;
+    height: 11vh;
+    display: flex;
     
+}
 
-#container-b2{
-    background-color: rgb(215, 50, 174);
-    
+.logo{
+  margin-left: 1vw;
+  width: 20vw;
+  justify-content: center;
+  align-items: center;
    
     
-    
 }
 
-#container-b3{
-    background-color: yellow ;
-}
-
-img{
-    height:100%;
-    width: 100%;
-}
-
-#div-logo{
-    height: 10vh;
-    width: 15vh;
-    margin-left: 15px;
+.reduce-logo{
+    max-width: 80%;
    
+ 
 }
 
-#espacio{
-    background-color:rgb(0, 0, 0);
-    height: 15px;
-    width: 40vw;
-    
-}
-
-a{
+.menu-central{
+    background-color: rgb(9, 8, 9);
+    width: 60vw;
+    font-size: 2vh;
     color: white;
-    text-decoration: none;
-}
-
-#logos-der{
-    width: 120px;
     display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.menu-end{
+    background-color: rgb(9, 8, 9);
+    width: 55vw;
+    display: flex;
+    justify-content:end;
+    align-items:center;
+    margin-right: 1vw;
+}
+
+.reduce-items{
+    max-width: 5%;
+}
+
+.container-films{
+    background-color: rgb(156, 156, 35);
+    display:flex;
+    height: 89vh;
+    flex-direction: column;
     
+}
+
+.text{
+    color: white;
+    font-size:80%;
+    margin-left: 1vw;}
+
+.top-films{
+
+    background-color: rgb(138, 21, 21);
+    height: 30vh;
+    width: 100vw;
+    display: flex;
 
 }
 
-#lupa{
-    height: 20px;
-    width: 20px;
-}
+.down-films{
 
-#campana{
-    height: 20px;
-    width: 20px;
+    background-color: rgb(138, 21, 21);
+    height: 30vh;
+    width: 100vw;
+    display: flex;
 }
-
-#avatar{
-    height: 20px;
-    width: 20px;
-}
-
-#flecha{
-    height: 20px;
-    width: 20px;
-}
-
-/* .peliculas1{
-    width: 5vw;
-    height: 5vw;
     
-} */
+    
+    
+    
+    
