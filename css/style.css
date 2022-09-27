@@ -77,18 +77,29 @@
     height: 30vh;
     width: 100vw;
     display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+        
 
 }
 
 .down-films{
 
-    background-color: rgb(138, 21, 21);
+    background-color: rgb(126, 122, 122);
     height: 30vh;
     width: 100vw;
     display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
 }
     
+.films{
+    background-color: black;
+    height: 20vh;
+    width: 19.5vw;
+}
     
-    
+
     
     
